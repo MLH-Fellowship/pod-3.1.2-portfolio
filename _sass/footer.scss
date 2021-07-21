@@ -32,17 +32,14 @@ footer .content .topic {
 footer .content p {
     text-align: justify;
 }
-footer .content .lower .topic {
-    margin: 24px 0 5px 0;
-}
-footer .content .lower i {
-    padding-right: 16px;
-}
 footer .content .middle {
     padding-left: 80px;
 }
 footer .content .middle a {
     line-height: 32px;
+}
+footer .content .middle .fas {
+    margin-right: 10px;
 }
 footer .content .right input[type="textarea"] {
     height: 60px;
