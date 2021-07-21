@@ -8,7 +8,7 @@ footer {
     margin-top: 50px;
 }
 footer .content {
-    max-width: 1350px;
+    max-width: 1000px;
     margin: auto;
     padding: 20px;
     display: flex;
@@ -20,8 +20,9 @@ a {
     color: #fff;
 }
 footer .content .box {
-    width: 33%;
+    width: 49%;
     transition: all 0.4s ease;
+    text-align: center;
 }
 footer .content .topic {
     font-size: 22px;
@@ -31,15 +32,6 @@ footer .content .topic {
 }
 footer .content p {
     text-align: justify;
-}
-footer .content .middle {
-    padding-left: 80px;
-}
-footer .content .middle a {
-    line-height: 32px;
-}
-footer .content .middle .fas {
-    margin-right: 10px;
 }
 footer .content .right input[type="textarea"] {
     height: 60px;
@@ -87,7 +79,7 @@ footer .content .media-icons a {
 footer .bottom {
     width: 100%;
     text-align: right;
-    color: #d9d9d9;
+    color: #f1f1f1;
     padding: 0 40px 5px 0;
 }
 footer .bottom a {
@@ -100,10 +92,8 @@ footer a {
 footer a:hover {
     color: #ffc300;
 }
-@media (max-width: 1100px) {
-    footer .content .middle {
-        padding-left: 50px;
-    }
+footer .content .fas {
+    margin-right: 10px;
 }
 @media (max-width: 950px) {
     footer .content .box {
@@ -120,8 +110,5 @@ footer a:hover {
     footer .content .box {
         width: 100%;
         margin-top: 30px;
-    }
-    footer .content .middle {
-        padding-left: 0;
     }
 }
