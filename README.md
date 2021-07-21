@@ -72,5 +72,6 @@ bundle install --path vendor/bundle
 bundle exec jekyll serve
 ```
 
-## Author:
+## Authors:
 - Ahmed Meshref
+- Jordan Hilado
