@@ -1,5 +1,20 @@
 <header class="nav-bar">
     <div class="nav-content">
+        <button onclick="myFunction()">Toggle dark mode</button>
+        <script>
+            function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+                var cardElement = document.getElementsByClassName("card");
+                for(let i = 0; i < cardElement.length; i += 1) {
+                    cardElement.item(i).classList.toggle("dark-card");
+                }
+                var infoElement = document.getElementsByClassName("info");
+                for(let i = 0; i < infoElement.length; i += 1) {
+                    infoElement.item(i).classList.toggle("info-dark");
+                }
+            }
+        </script>
         <a href="{{ '/' | relative_url }}">
             <div class="nav-logo">
                 <img src="./assets/img/logo.svg" />
