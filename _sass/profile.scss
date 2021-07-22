@@ -24,3 +24,34 @@
         height: 200px;
     }
 }
+
+.toggle {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #c53c02;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #751b00;
+}
+
+.toggle:focus {
+    outline: none;
+}
+
+.toggle:hover {
+    background-color: #ff4c00;
+    outline: none;
+}
+
+.toggle:active {
+    background-color: #fdee00;
+    box-shadow: 0 5px #ecc700;
+    transform: translateY(4px);
+    outline: none;
+}
