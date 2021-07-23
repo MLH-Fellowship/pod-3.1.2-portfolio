@@ -51,8 +51,23 @@ h2 {
     font-size: 1.2em;
 }
 
+.dark-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 30px;
+    background-color: #606266;
+    border-radius: .375rem;
+    padding: 1.5em;
+    font-size: 1.2em;
+}
+
 a {
     color: black;
+}
+
+.a-dark {
+  color: white
 }
 
 .info {
@@ -76,6 +91,30 @@ a {
         font-size: small;
         color: #404040;
     }
+}
+
+.info-dark {
+  color: #F8F8F8;
+  p {
+      margin-top: 5px;
+      margin: 0px;
+      text-align: left;
+  }
+
+  .title {
+      font-size: 500;
+      font-weight: bold;
+  }
+
+  .location {
+      font-size: medium;
+      font-weight: 400;
+  }
+
+  .dates {
+      font-size: small;
+      color: #BABABA;
+  }
 }
 
 .icon {
