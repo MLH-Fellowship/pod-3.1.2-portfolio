@@ -70,20 +70,22 @@ footer .content .media-icons a {
     line-height: 43px;
     border-radius: 5px;
     border: 2px solid #fff;
-    margin: 30px 5px 0 0;
-    transition: all 0.3s ease;
+    margin: 10px 5px 0 0;
 }
-.content .media-icons a:hover {
+footer .content .media-icons a:hover {
     border-color: #ffc300;
+}
+footer .message-form-section, .media-icons {
+    display: inline-block;
+}
+footer .message-form-btn{
+    margin: 10px 5px 0 0;
 }
 footer .bottom {
     width: 100%;
     text-align: right;
     color: #f1f1f1;
     padding: 0 40px 5px 0;
-}
-footer .bottom a {
-    color: #ffc300;
 }
 footer a {
     transition: all 0.3s ease;
