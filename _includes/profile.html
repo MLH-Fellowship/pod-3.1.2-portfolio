@@ -2,6 +2,11 @@
     <div class="profile-picture">
         <img src="./assets/img/logo.jpg">
     </div>
-    <h1>{{ site.title }}</h1>
+    <h1>
+        {{ site.title }}
+        <a class="btn resume-btn" href="./assets/files/resume.pdf" download>
+            <i class="fa fa-download"></i> Resume
+        </a>
+    </h1>   
     <p>{{ site.bio }}</p>
 </div>
