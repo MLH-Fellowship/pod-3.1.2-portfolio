@@ -25,10 +25,35 @@
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 <a href="#"><i class="fab fa-github"></i></a>
             </div>
-            <div class="message-form-section">
-                <button class="btn message-form-btn" onclick="openForm()"><i class="fas fa-sms"></i>Send
-                    Message</button>
+            <button class="btn message-form-btn" onclick="openForm()"><i class="fas fa-sms"></i>Message Me</button>
+            <div class="form-popup" id="myForm">
+                <form class="form-container" name="contact" netlify>
+                    <div class="form-header">
+                        <h1>Message Me</h1>
+                    </div>
+                    <div class="form-body">
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email..." name="email" required>
+
+                        <label for="message"><b>Message</b></label>
+                        <textarea rows="3" placeholder="Enter Message..." name="message" required></textarea>
+
+                        <button type="submit" class="btn send">Send</button>
+                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                    </div>
+                </form>
             </div>
+
+            <script>
+                function openForm() {
+                    document.getElementById("myForm").style.display = "block";
+                }
+
+                function closeForm() {
+                    document.getElementById("myForm").style.display = "none";
+                }
+            </script>
+
         </div>
     </div>
     <div class="bottom">

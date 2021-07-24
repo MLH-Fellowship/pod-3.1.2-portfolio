@@ -75,11 +75,75 @@ footer .content .media-icons a {
 footer .content .media-icons a:hover {
     border-color: #ffc300;
 }
-footer .message-form-section, .media-icons {
-    display: inline-block;
-}
-footer .message-form-btn{
+footer .btn {
     margin: 10px 5px 0 0;
+}
+// Contact form style
+/* The popup form - hidden by default */
+footer .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    z-index: 9;
+}
+/* Add styles to the form container */
+footer .form-container {
+    max-width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(28, 83, 159, 0.4);
+    transition: 0.3s;
+    color: #404040;
+}
+footer .form-container .form-header {
+    background-color: #1c539f;
+    border-radius: 5px 5px 0px 0px;
+}
+footer .form-container .form-body {
+    padding: 10px;
+}
+footer .form-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(28, 83, 159, 0.4);
+}
+footer .form-container .form-header h1 {
+    font-size: 20px;
+    padding: 15px;
+    color: #fff;
+}
+/* Full-width input fields */
+footer .form-container input[type="text"],
+footer .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+footer .form-container textarea {
+    resize: none;
+}
+/* When the inputs get focus, do something */
+footer .form-container input[type="text"]:focus,
+footer .form-container textarea:focus {
+    background-color: rgba(28, 83, 159, 0.1);
+    outline: none;
+}
+footer .form-container .send {
+    background-color: rgba(28, 83, 159, 0.8);
+    width: 42%;
+}
+footer .form-container .send:hover {
+    background-color: rgba(28, 83, 159, 1);
+    color: #fff;
+}
+/* Add a red background color to the cancel button */
+footer .form-container .cancel {
+    background-color: rgba(207, 20, 43, 0.8);
+    width: 42%;
+}
+footer .form-container .cancel:hover {
+    background-color: rgba(207, 20, 43, 1);
+    color: #fff;
 }
 footer .bottom {
     width: 100%;
