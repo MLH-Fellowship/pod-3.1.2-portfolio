@@ -11,7 +11,7 @@
         font-weight: 700;
         color: white;
     }
-  
+
     p {
         font-size: 20px;
         color: white;
@@ -19,9 +19,9 @@
         width: 700px;
         margin-left: auto;
         margin-right: auto;
-        display: block;    
+        display: block;
     }
-  
+
     img {
         border-radius: 50%;
         max-width: 100%;
@@ -39,7 +39,7 @@
 
     /* Style buttons */
     .resume-btn {
-        background-color: rgba(255, 195, 0, .7);
+        background-color: rgba(255, 195, 0, 0.7);
         border: none;
         color: white;
         padding: 12px 30px;
@@ -51,35 +51,4 @@
     .resume-btn:hover {
         background-color: rgba(255, 195, 0, 1);
     }
-}
-
-.toggle {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 20px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: white;
-    background-color: #c53c02;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #751b00;
-}
-
-.toggle:focus {
-    outline: none;
-}
-
-.toggle:hover {
-    background-color: #ff4c00;
-    outline: none;
-}
-
-.toggle:active {
-    background-color: #fdee00;
-    box-shadow: 0 5px #ecc700;
-    transform: translateY(4px);
-    outline: none;
 }
